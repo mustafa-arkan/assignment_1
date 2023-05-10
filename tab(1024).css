@@ -1,0 +1,107 @@
+.topbar {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.topbar .inner_topbar {
+  width: 90%;
+}
+
+/*  */
+.top_menu {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_logo {
+  width: 80%;
+  height: 100px;
+  display: flex;
+}
+
+/* .menu_logo img {
+  width: 160px;
+  height: 75px;
+} */
+
+.menu_logo .menu {
+  width: 58%;
+}
+/*  */
+.carousel-inner {
+  height: calc(100vh - 48px);
+}
+.banner .carousel-inner #logo {
+  left: 70px;
+}
+
+.banner .carousel-inner .left_title {
+  left: 70px;
+}
+
+/*  */
+
+#first_slide .imac_pc {
+  width: 30%;
+  height: 50vh;
+  left: 50%;
+  top: 246px;
+}
+
+#second_slide .imac_phone {
+  width: 23%;
+  /* height: 397px; */
+  height: calc(100vh - 32vh);
+
+  left: 50%;
+  top: 170px;
+}
+
+#third_slide .imac_girl {
+  width: 21%;
+  /* height: 317px; */
+  height: calc(100vh - 25vh);
+
+  left: 50%;
+  top: 170px;
+}
+
+/*  */
+
+/*  */
+.auto_video {
+  height: 450px;
+}
+
+.content_auto_video {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.auto_left {
+  width: 40%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.auto_left b {
+  font-size: 14px;
+}
+
+.auto_left h1 {
+  font-size: 32px;
+}
+
+.auto_left p {
+  font-size: medium;
+}
+
+.auto_right img {
+  width: 100%;
+  height: 350px;
+}

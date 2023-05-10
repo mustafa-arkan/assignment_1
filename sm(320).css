@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+.sub_heading {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sub_heading_text {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #666666;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/*  */
+
+.topbar {
+  height: 68px;
+  display: flex;
+  justify-content: start;
+  font-size: 10px;
+}
+
+.inner_topbar {
+  width: 300px;
+  display: grid;
+  justify-content: start;
+}
+
+.inner_topbar #contact {
+  display: grid;
+  gap: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.inner_topbar #auth {
+  left: 80%;
+
+  padding-top: 10px;
+}
+/* topbar end */
+
+/* banner start */
+.carousel-inner {
+  /* height: 100vh; */
+  height: calc(100vh - 68px);
+}
+
+.top_menu {
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.menu_logo {
+  width: 75%;
+  height: 30px;
+  display: flex;
+
+  justify-content: space-between;
+  /* margin-left: 65px; */
+  margin-left: 17.5%;
+  margin-top: -50px;
+}
+
+.menu_logo img {
+  width: 60px;
+  height: 45px;
+}
+/* .menu {
+  left: 1%;
+} */
+
+.sticky {
+  height: 60px;
+}
+
+.sticky .menu_logo {
+  margin-top: 5px;
+  margin-left: 12px;
+  width: 100%;
+}
+
+.sticky .menu_logo img {
+  width: 60px;
+  height: 45px;
+  margin-top: -10px;
+}
+.sticky .menu {
+  margin-top: -10px;
+}
+
+.banner .carousel-inner .left_title {
+  width: 62%;
+  /* height: 40vh; */
+  height: 168px;
+  /* left: 12px; */
+  top: 20vh;
+  font-size: 10px;
+}
+
+.left_title :first-child {
+  font-size: 16px;
+}
+
+.left_title h1 {
+  font-size: 24px;
+}
+.left_title :nth-child(3) {
+  font-size: 12px;
+  color: #f3f3f3;
+  opacity: 0.8;
+}
+
+.left_title :nth-child(4) {
+  font-size: 12px;
+  color: #f7f7f7;
+}
+
+.socio_ico {
+  /* left: 34px; */
+  /* top: 350px; */
+  top: 75vh;
+  display: flex;
+  gap: 10px;
+}
+
+.socio_ico i {
+  height: 15px;
+  width: 15px;
+}
+
+i#fb:before {
+  width: 50px;
+  left: -20px;
+}
+
+#first_slide .imac_pc {
+  width: 44%;
+  height: 55vh;
+
+  top: 110px;
+  display: none;
+}
+
+#second_slide .imac_phone {
+  width: 26.16%;
+  height: 55vh;
+
+  top: 100px;
+  display: none;
+}
+
+#third_slide .imac_girl {
+  width: 21.14%;
+  height: 55vh;
+
+  top: 100px;
+  display: none;
+}
+#fourth_slide .imac_phone {
+  width: 21.14%;
+  height: 55vh;
+
+  top: 100px;
+  display: none;
+}
+
+.carousel-indicators {
+  top: calc(100vh - 90px);
+
+  height: 50px;
+}
+/* banner end */
+
+/* platform 1 start */
+.platform_one {
+  height: 2000px;
+
+  padding-top: 35px;
+}
+
+.platform_one_allcards {
+  width: 90%;
+  margin-left: 12px;
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+}
+
+.platform_one_allcards .platform_one_card {
+  width: 280px;
+  height: 458px;
+}
+
+/* platform 1 end */
+
+/* start of auto video */
+
+.auto_video {
+  height: 800px;
+}
+
+.content_auto_video {
+  width: 90%;
+  height: 830px;
+  margin-left: 12px;
+  display: grid;
+}
+
+.auto_left {
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.auto_left b {
+  font-size: 12px;
+}
+
+.auto_left h1 {
+  font-size: 30px;
+
+  padding-bottom: 17px;
+}
+
+.auto_left p {
+  font-size: small;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+.auto_right img {
+  width: 100%;
+  height: 350px;
+  padding-left: 12px;
+  /* justify-content: center; */
+}
+
+/* end of auto video */
+
+/* start of platform 2 */
+
+.platform_two {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 48px;
+  padding-top: 38px;
+}
+
+.platform_two_cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  align-items: center;
+  /* margin-left: 12px; */
+  margin-top: 40px;
+  width: 100%;
+}
+
+.platform_two_card {
+  width: 90%;
+  height: 400px;
+}
+
+.platform_two_card p {
+  text-align: justify;
+}
+#demo_title {
+  padding-top: 48px;
+}
+/* end of platform 2 */
+
+/* start of contact form */
+
+.contact_form {
+  height: 775px;
+  justify-content: center;
+}
+
+.contact_form img {
+  /* display: none; */
+  width: 100%;
+  padding-left: 138px;
+}
+/*  */
+.contact_form form {
+  width: 95%;
+  height: 650px;
+
+  background: #fff;
+
+  margin-top: 57px;
+  margin-left: 12px;
+}
+
+/* end of contact form */
+/* start of contact address */
+
+.contact_address {
+  height: fit-content;
+  padding-bottom: 20px;
+}
+
+.contact_address .inner_contact_card .contact_address_card h1 {
+  font-size: 20px;
+}
+
+.inner_contact_card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.contact_address_card {
+  width: 80%;
+  height: 150px;
+  margin-top: 50px;
+}
+
+/* end of contact address */
+/* start of footer */
+.footer_section {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+}
+
+.footer_section .inner_footer_section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* margin-left: 12px; */
+}
+
+.footer_section h1 {
+  font-size: 16px;
+  /* justify-content: center; */
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.footer_section p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.footer_section .inner_footer_section #about_us i {
+  /* justify-content: center; */
+  width: 40px;
+}
+
+.footer_section .inner_footer_section #about_us {
+  width: 90%;
+}
+
+.footer_section .inner_footer_section #servicing {
+  width: 90%;
+}
+
+.footer_section .inner_footer_section #contact_with {
+  width: 90%;
+}
+/* end of footer */
+
+.bottombar {
+  font-size: small;
+  padding-left: 12px;
+}

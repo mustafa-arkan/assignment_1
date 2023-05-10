@@ -1,0 +1,386 @@
+.sub_heading {
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sub_heading_text {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #a9a6a6;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.topbar {
+  height: 52px;
+}
+
+.inner_topbar {
+  width: 1070px;
+  margin-left: 16%;
+}
+.inner_topbar #auth {
+  position: absolute;
+  display: flex;
+  left: 70%;
+}
+/* banner start */
+/*  */
+.carousel-item {
+  height: 876px;
+}
+
+.carousel-item .banner_shape {
+  position: absolute;
+  left: 63%;
+  width: 37%;
+  height: 874px;
+}
+
+.carousel-inner {
+  height: 874px;
+}
+
+.carousel-indicators {
+  top: 800px;
+
+  height: 50px;
+}
+
+.top_menu .menu_logo {
+  width: 72%;
+  height: 100px;
+  display: flex;
+  /* margin-left: 72px; */
+  justify-content: space-between;
+}
+
+.top_menu .menu_logo .navbar-nav {
+  gap: 37px;
+
+  margin-left: 90px;
+}
+/* .menu_logo .menu {
+  width: 600px;
+
+  display: flex;
+  gap: 27px;
+  align-items: center;
+} */
+
+/*  */
+.banner .carousel-inner .left_title {
+  position: absolute;
+  width: 626px;
+  height: 283px;
+  left: 19.47%;
+  top: 296px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #f3f3f3;
+}
+
+.banner .carousel-inner .left_title_banner_two {
+  top: 320px;
+}
+
+.banner .carousel-inner .left_title_banner_three {
+  top: 320px;
+}
+
+.left_title :first-child {
+  font-family: "montserrat-semibolditalic";
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.left_title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.socio_ico {
+  position: absolute;
+  color: #fff;
+  left: 20%;
+  top: 746px;
+}
+
+#first_slide .imac_pc {
+  position: absolute;
+  width: 600px;
+  height: 478px;
+  left: 56%;
+  top: 345px;
+}
+
+#second_slide .imac_phone {
+  position: absolute;
+  width: 375px;
+  height: 642px;
+  left: 1210px;
+  top: 180px;
+}
+
+#third_slide .imac_girl {
+  position: absolute;
+  width: 400px;
+  height: 563px;
+  left: 1148px;
+  top: 262px;
+}
+/*  */
+
+.platform_one {
+  height: 837px;
+  padding-top: 95px;
+}
+
+.platform_one .platform_one_allcards {
+  height: 463px;
+  width: 1174px;
+  margin-left: 19.47%;
+  display: flex;
+  gap: 30px;
+}
+
+.platform_one .platform_one_allcards .platform_one_card {
+  width: 278px;
+  height: 458px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 24px 5px 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.platform_one .platform_one_allcards .platform_one_card h3 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin-bottom: 52px;
+}
+
+.platform_one .platform_one_allcards .platform_one_card p {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  opacity: 0.7;
+}
+/*  */
+.auto_video {
+  height: 625px;
+}
+
+.content_auto_video {
+  width: 1174px;
+  margin-left: 19.47%;
+  display: flex;
+  gap: 178px;
+}
+
+.auto_left {
+  width: 468px;
+  padding-top: 145px;
+}
+
+.auto_left b {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #666666;
+  padding-bottom: 28px;
+}
+
+.auto_left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: #494ca2;
+  padding-bottom: 37px;
+}
+
+.auto_left p {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #818181;
+  line-height: 25px;
+  padding-bottom: 71px;
+  text-align: left;
+  opacity: 1;
+}
+
+.auto_right img {
+  width: 526px;
+  height: 484px;
+  padding-left: 80px;
+}
+
+/*  */
+.platform_two {
+  text-align: center;
+  margin-bottom: 98px;
+  padding-top: 78px;
+}
+
+.platform_two .platform_two_cards {
+  margin-left: 19.47%;
+  margin-top: 74px;
+  gap: 20px;
+  width: 1025px;
+}
+
+.platform_two .platform_two_cards .platform_two_card {
+  width: 320px;
+  height: 341px;
+}
+
+.platform_two_card h3 {
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-top: 171px;
+}
+
+.platform_two_card p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 42px;
+  color: #666666;
+}
+
+#demo_title {
+  padding-top: 98px;
+}
+/*  */
+.contact_form {
+  position: relative;
+  display: flex;
+  height: 775px;
+  background: url(./assests/Images/demo/Screenshot_2.png);
+}
+
+/* .contact_form  img {
+  width: 1249px;
+  padding-left: 438px;
+} */
+
+.contact_form img {
+  position: absolute;
+  width: 80%;
+  height: 775px;
+  padding-left: 338px;
+  margin-left: 380px;
+}
+
+.contact_form form {
+  width: 433px;
+  height: 690px;
+  margin-top: 57px;
+  margin-left: 59.32%;
+}
+
+.formEntry {
+  display: block;
+  min-width: 300px;
+  margin: 30px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  transition: all 0.5s ease 0s;
+}
+/*  */
+
+.contact_address {
+  height: 363px;
+  background: url(./assests/Images/contactus/img.png);
+}
+
+.inner_contact_card {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  margin-left: 19.47%;
+  justify-content: left;
+}
+
+.contact_address_card {
+  width: 315px;
+  height: 151px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 107px;
+  text-align: center;
+}
+
+/*  */
+.footer_section {
+  height: 425px;
+  display: flex;
+  background-image: linear-gradient(
+      rgba(40, 41, 44, 0.9),
+      rgba(146, 146, 146, 0.1)
+    ),
+    url(./assests/Images/footer/footer-img.png);
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer_section h1 {
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding-top: 94px;
+  padding-bottom: 30px;
+}
+
+.footer_section p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #eeeeee;
+}
+
+.footer_section .inner_footer_section {
+  margin-left: 19.47%;
+  width: 1520px;
+  display: flex;
+  gap: 230px;
+  justify-content: left;
+}
+
+.footer_section .inner_footer_section #about_us {
+  width: 270px;
+}
+
+.footer_section .inner_footer_section #about_us i {
+  margin-top: 30px;
+}
+
+.footer_section .inner_footer_section #servicing {
+  width: 205px;
+}
+
+.footer_section .inner_footer_section #contact_with {
+  width: 250px;
+}
+
+.footer_section .contact_with img {
+  height: 18px;
+}
