@@ -104,20 +104,23 @@
         <div class="carousel-indicators">
           <button
             type="button"
+            onclick="changeButtonSize(this)"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="0"
-            class="active"
+            class="active clicked"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
           <button
             type="button"
+            onclick="changeButtonSize(this)"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
           <button
             type="button"
+            onclick="changeButtonSize(this)"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="2"
             aria-label="Slide 3"
@@ -125,6 +128,7 @@
 
           <button
             type="button"
+            onclick="changeButtonSize(this)"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="3"
             aria-label="Slide 4"
@@ -847,6 +851,16 @@
         }
       );
       observer.observe(topbar);
+      // banner slider button style
+      function changeButtonSize(button) {
+        var buttons = document.querySelectorAll(
+          ".banner .carousel-indicators button"
+        );
+        buttons.forEach(function (btn) {
+          btn.classList.remove("clicked");
+        });
+        button.classList.add("clicked");
+      }
     </script>
   </body>
 </html>

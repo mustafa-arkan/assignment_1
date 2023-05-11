@@ -283,6 +283,18 @@ i#fb:before {
   height: 50px;
 }
 
+.banner .carousel-indicators button {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.banner .carousel-indicators button.clicked {
+  margin-top: -5px;
+  width: 12px; /* Adjust size as desired */
+  height: 12px; /* Adjust size as desired */
+}
+
 /* start of platform css */
 
 .platform_one {
