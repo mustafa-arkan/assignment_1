@@ -4,6 +4,7 @@
 
 .sub_heading_text {
   font-size: 12px;
+  margin-bottom: 42px;
 }
 
 .topbar {
@@ -65,7 +66,7 @@
 }
 
 .socio_ico {
-  left: 76px;
+  left: 96px;
   top: 70vh;
 }
 
@@ -112,7 +113,7 @@
 }
 
 .platform_one_allcards {
-  width: 90%;
+  width: 100%;
   margin-left: 12px;
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -123,7 +124,20 @@
 
 .platform_one_allcards .platform_one_card {
   width: 280px;
-  height: 458px;
+  height: 400px;
+}
+
+.platform_one_card .circle_logo {
+  width: 80px;
+  left: 90px;
+  top: 47px;
+}
+
+.platform_one_card .innner_logo {
+  position: absolute;
+  left: 112px;
+  top: 67px;
+  opacity: 1;
 }
 
 /* platform 1 end */

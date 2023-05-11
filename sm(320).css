@@ -22,6 +22,7 @@ body {
   font-weight: 400;
   text-align: center;
   color: #666666;
+  margin-bottom: 32px;
 }
 
 p {
@@ -193,7 +194,7 @@ i#fb:before {
 
 /* platform 1 start */
 .platform_one {
-  height: 2000px;
+  height: 1750px;
 
   padding-top: 35px;
 }
@@ -207,8 +208,37 @@ i#fb:before {
 }
 
 .platform_one_allcards .platform_one_card {
-  width: 280px;
-  height: 458px;
+  width: 260px;
+
+  height: 380px;
+}
+
+.platform_one_card .circle_logo {
+  width: 75px;
+  left: 84px;
+  top: 47px;
+}
+
+.platform_one_card .innner_logo {
+  position: absolute;
+  left: 103px;
+  top: 67px;
+}
+
+.platform_one_card .platform_one_info {
+  top: 154px;
+}
+
+.platform_one_card h3 {
+  font-size: 24px;
+
+  margin-bottom: 22px;
+  /*  */
+}
+
+.platform_one_card p {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 /* platform 1 end */

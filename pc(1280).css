@@ -4,6 +4,7 @@
 
 .sub_heading_text {
   font-size: 10px;
+  margin-bottom: 40px;
 }
 
 .topbar .inner_topbar {
@@ -85,6 +86,11 @@
   margin-top: 15px;
 }
 
+.carousel-indicators {
+  top: calc(100vh - 80px);
+
+  height: 50px;
+}
 /*  */
 
 .banner .carousel-inner .left_title {
@@ -163,17 +169,19 @@
 }
 
 .platform_one_allcards {
-  height: 453px;
-  width: 75%;
+  height: 400px;
+  width: 78%;
+
   margin-left: 12%;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .platform_one_card h3 {
-  font-size: 30px;
+  font-size: 25px;
 
-  margin-bottom: 52px;
+  margin-bottom: 32px;
+  /*  */
 }
 
 .platform_one_card p {
@@ -181,14 +189,27 @@
 }
 .platform_one_allcards .platform_one_card {
   width: 280px;
-  height: 458px;
+  height: 400px;
+  /*  */
 }
 
-.carousel-indicators {
-  top: calc(100vh - 80px);
-
-  height: 50px;
+.platform_one_card .platform_one_info {
+  top: 154px;
 }
+
+.platform_one_card .circle_logo {
+  width: 80px;
+  left: 90px;
+  top: 47px;
+}
+
+.platform_one_card .innner_logo {
+  position: absolute;
+  left: 112px;
+  top: 67px;
+  opacity: 1;
+}
+
 /* start of auto video */
 
 .auto_video {

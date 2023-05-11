@@ -304,7 +304,7 @@ i#fb:before {
 
 .platform_one_allcards .platform_one_card {
   width: 240px;
-  height: 458px;
+  height: 400px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -313,23 +313,6 @@ i#fb:before {
   border-radius: 24px 5px 24px;
   font-family: "Montserrat", sans-serif;
   color: #fff;
-}
-
-.platform_one_card h3 {
-  font-size: 30px;
-  font-weight: 900;
-  margin-bottom: 52px;
-}
-
-.platform_one_card p {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-}
-
-.platform_one_card .platform_one_info {
-  position: absolute;
-  top: 184px;
 }
 
 .platform_one_card .circle_logo {
@@ -345,6 +328,27 @@ i#fb:before {
   top: 87px;
 }
 
+.platform_one_card .platform_one_info {
+  position: absolute;
+  top: 184px;
+}
+.platform_one_card h3 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-bottom: 52px;
+  text-transform: uppercase;
+}
+
+.platform_one_card p {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
 .platform_one_card:hover {
   animation: bounce 1.5s infinite;
 }
@@ -352,8 +356,9 @@ i#fb:before {
 .pcard-1 {
   background: linear-gradient(
     to bottom,
-    rgba(28, 226, 100, 0.9),
-    rgba(36, 173, 213, 0.9)
+
+    rgba(36, 226, 100, 0.9),
+    rgba(36, 174, 211, 0.9)
   );
 }
 
