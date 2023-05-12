@@ -369,11 +369,7 @@ p {
 .footer_section {
   height: 425px;
   display: flex;
-  background-image: linear-gradient(
-      rgba(40, 41, 44, 0.9),
-      rgba(146, 146, 146, 0.1)
-    ),
-    url(./assests/Images/footer/footer-img.png);
+
   text-transform: uppercase;
   color: #fff;
 }

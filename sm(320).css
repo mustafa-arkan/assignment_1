@@ -407,6 +407,7 @@ i#fb:before {
   font-size: 16px;
   /* justify-content: center; */
   text-align: center;
+
   padding-top: 8px;
   padding-bottom: 5px;
 }
@@ -423,6 +424,8 @@ i#fb:before {
 
 .footer_section .inner_footer_section #about_us {
   width: 90%;
+  text-align: center;
+  margin-left: 20px;
 }
 
 .footer_section .inner_footer_section #servicing {

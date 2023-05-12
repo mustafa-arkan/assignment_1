@@ -354,7 +354,7 @@
 /* start of contact address */
 
 .contact_address {
-  height: 363px;
+  height: 340px;
 }
 
 .inner_contact_card {
@@ -394,18 +394,21 @@
   display: flex;
   flex-direction: row;
   gap: 60px;
-  margin-left: 12%;
+  margin-left: 4%;
 }
 
 .footer_section h1 {
-  font-size: 36px;
+  font-size: 26px;
 
-  padding-top: 94px;
-  padding-bottom: 30px;
+  padding-top: 54px;
+  padding-bottom: 20px;
   text-align: left;
 }
 
 .footer_section p {
-  font-size: 16px;
+  font-size: 12px;
+  text-align: left;
+}
+.footer_section .inner_footer_section #about_us {
   text-align: left;
 }
