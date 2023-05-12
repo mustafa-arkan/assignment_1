@@ -323,24 +323,43 @@ i#fb:before {
 /* start of contact form */
 
 .contact_form {
-  height: 775px;
-  justify-content: center;
+  height: 575px;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-left: 30px; */
 }
 
 .contact_form img {
   /* display: none; */
   width: 100%;
+  height: 575px;
   padding-left: 138px;
 }
 /*  */
 .contact_form form {
-  width: 95%;
-  height: 650px;
+  width: 90%;
+  height: 500px;
 
   background: #fff;
 
   margin-top: 57px;
-  margin-left: 12px;
+  margin-left: 5%;
+}
+
+.contact_form form .form_input {
+  height: fit-content;
+
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+}
+
+.contact_form form input {
+  height: 40px;
+  width: 270px;
+  background: #f1f1f1;
+
+  border-radius: 12px;
 }
 
 /* end of contact form */

@@ -576,19 +576,15 @@ i#fb:before {
 .contact_form {
   position: relative;
   display: flex;
+  /* justify-content: center; */
   height: 775px;
   background: url(./assests/Images/demo/Screenshot_2.png);
 }
 
-/* .contact_form  img {
-  width: 1249px;
-  padding-left: 438px;
-} */
-
 .contact_form img {
   position: absolute;
   width: 100%;
-  height: 775px;
+  height: 800px;
   padding-left: 338px;
 }
 
@@ -596,30 +592,32 @@ i#fb:before {
 } */
 
 .contact_form form {
-  width: 433px;
+  width: 430px;
   height: 690px;
   position: absolute;
   background: #fff;
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   margin-top: 57px;
   margin-left: 59.32%;
-  animation: bounce 1.5s infinite;
-  border-radius: 9px;
+  /* animation: bounce 1.5s infinite; */
+  border-radius: 20px;
 }
 
 form .name {
   background-color: #ebebeb;
   color: white;
+  padding-left: 20px;
+  opacity: 0.7;
 }
 
-form .name:hover {
+/* form .name:hover {
   height: 30px;
   width: 19.79%;
   border-bottom: 5px solid #0e3721;
   transition: ease 0.5s;
-}
+} */
 
-.formEntry {
+/* .formEntry {
   display: block;
   min-width: 300px;
   margin: 30px auto;
@@ -627,24 +625,45 @@ form .name:hover {
   border: none;
   border-radius: 2px;
   transition: all 0.5s ease 0s;
+} */
+.contact_form form .form_input {
+  height: fit-content;
+
+  margin-top: 60px;
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
-.submit {
-  width: 197px;
-  height: 53px;
+.contact_form form input {
+  height: 60px;
+  width: 370px;
+  background: #f1f1f1;
+  border: none;
+  border-radius: 12px;
+}
+
+.contact_form form button {
+  width: 195px;
+  height: 55px;
   font-size: 20px;
   color: white;
-  background-color: #0e3721;
-  border-radius: 20px;
+  background: #494ca2;
+  border-radius: 50px;
+  margin-top: 10px;
+  border: none;
+  opacity: 0.7;
 }
 
-.submit:hover {
+/* .submit:hover {
   box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
   transform: translateY(-3px);
   width: 300px;
   border-top: 5px solid #0e3750;
   border-radius: 0%;
-}
+} */
 
 /* @keyframes bounce {
   0% {

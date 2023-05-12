@@ -281,7 +281,7 @@ p {
 .contact_form {
   position: relative;
   display: flex;
-  height: 775px;
+  height: 800px;
   background: url(./assests/Images/demo/Screenshot_2.png);
 }
 
@@ -293,7 +293,7 @@ p {
 .contact_form img {
   position: absolute;
   width: 80%;
-  height: 775px;
+  height: 800px;
   padding-left: 338px;
   margin-left: 380px;
 }
@@ -305,7 +305,33 @@ p {
   margin-left: 59.32%;
 }
 
-.formEntry {
+.contact_form form .form_input {
+  height: fit-content;
+
+  margin-top: 60px;
+  display: grid;
+  justify-content: center;
+}
+
+.contact_form form input {
+  height: 60px;
+  width: 370px;
+  background: #f1f1f1;
+
+  border-radius: 5px;
+}
+
+.contact_form form button {
+  width: 190px;
+  height: 55px;
+  font-size: 20px;
+  color: white;
+  background: #494ca2;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+/* .formEntry {
   display: block;
   min-width: 300px;
   margin: 30px auto;
@@ -313,7 +339,7 @@ p {
   border: none;
   border-radius: 2px;
   transition: all 0.5s ease 0s;
-}
+} */
 /*  */
 
 .contact_address {
