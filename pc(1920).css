@@ -205,7 +205,7 @@ p {
   width: 1174px;
   margin-left: 19.47%;
   display: flex;
-  gap: 178px;
+  justify-content: space-between;
 }
 
 .auto_left {
@@ -218,7 +218,6 @@ p {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #666666;
-  padding-bottom: 28px;
 }
 
 .auto_left h1 {
@@ -226,24 +225,19 @@ p {
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
   color: #494ca2;
-  padding-bottom: 37px;
 }
 
 .auto_left p {
   font-size: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-weight: 500;
   color: #818181;
   line-height: 25px;
-  padding-bottom: 71px;
-  text-align: left;
-  opacity: 1;
 }
 
 .auto_right img {
   width: 526px;
   height: 484px;
-  padding-left: 80px;
 }
 
 /*  */
