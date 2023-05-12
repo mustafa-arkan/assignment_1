@@ -282,3 +282,11 @@
 .footer_section p {
   font-size: 10px;
 }
+
+.bottombar {
+  height: 63px;
+  font-size: 14px;
+
+  align-items: center;
+  justify-content: center;
+}

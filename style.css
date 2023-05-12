@@ -817,6 +817,9 @@ form .name {
 .bottombar {
   display: flex;
   height: 63px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   color: #e5e3e3;
   background: linear-gradient(
     to right,
