@@ -383,9 +383,17 @@ i#fb:before {
 }
 
 .contact_address_card {
-  width: 80%;
-  height: 150px;
+  width: 85%;
+  height: 120px;
   margin-top: 50px;
+}
+
+.contact_address_card h1 {
+  font-size: 18px;
+}
+
+.contact_address .contact_address_card p {
+  font-size: 12px;
 }
 
 /* end of contact address */
