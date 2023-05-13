@@ -82,6 +82,17 @@ p {
   margin-top: -50px;
 }
 
+.menu_logo .navbar-nav {
+  gap: 17px;
+
+  margin-left: -5px;
+  padding-top: 7px;
+}
+
+.menu_logo .navbar-nav a {
+  font-size: 10px;
+}
+
 .menu_logo img {
   width: 60px;
   height: 45px;

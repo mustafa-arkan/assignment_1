@@ -128,7 +128,7 @@ p {
   margin-left: -160px;
 }
 
-.menu_logo a {
+.menu_logo .navbar-nav a {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   color: #f3f3f3;
@@ -173,6 +173,7 @@ p {
 }
 .sticky .menu_logo a {
   color: black;
+  filter: brightness(30%);
 }
 .banner .carousel-inner .left_title {
   position: absolute;
