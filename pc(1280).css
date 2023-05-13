@@ -393,12 +393,16 @@
 .footer_section .inner_footer_section {
   display: flex;
   flex-direction: row;
-  gap: 60px;
-  margin-left: 4%;
+  /* gap: 90px; */
+  gap: 120px;
+
+  margin-left: 7%;
+
+  width: 85%;
 }
 
 .footer_section h1 {
-  font-size: 26px;
+  font-size: 28px;
 
   padding-top: 54px;
   padding-bottom: 20px;
@@ -411,4 +415,5 @@
 }
 .footer_section .inner_footer_section #about_us {
   text-align: left;
+  margin-right: 70px;
 }
