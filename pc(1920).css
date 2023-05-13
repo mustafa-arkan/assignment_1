@@ -32,7 +32,7 @@ p {
   left: 70%;
 }
 /* banner start */
-/*  */
+
 .carousel-item {
   height: 876px;
 }
@@ -50,7 +50,6 @@ p {
 
 .carousel-indicators {
   top: 800px;
-
   height: 50px;
 }
 
@@ -58,24 +57,14 @@ p {
   width: 72%;
   height: 100px;
   display: flex;
-  /* margin-left: 72px; */
   justify-content: space-between;
 }
 
 .top_menu .menu_logo .navbar-nav {
   gap: 37px;
-
   margin-left: 90px;
 }
-/* .menu_logo .menu {
-  width: 600px;
 
-  display: flex;
-  gap: 27px;
-  align-items: center;
-} */
-
-/*  */
 .banner .carousel-inner .left_title {
   position: absolute;
   width: 626px;
@@ -138,7 +127,6 @@ p {
   left: 1148px;
   top: 262px;
 }
-/*  */
 
 .platform_one {
   height: 837px;
@@ -250,12 +238,12 @@ p {
 .platform_two .platform_two_cards {
   margin-left: 19.47%;
   margin-top: 74px;
-  gap: 20px;
-  width: 1025px;
+  gap: 34px;
+  width: 1200px;
 }
 
 .platform_two .platform_two_cards .platform_two_card {
-  width: 320px;
+  width: 375px;
   height: 341px;
 }
 
@@ -296,18 +284,13 @@ p {
 #demo_title {
   padding-top: 98px;
 }
-/*  */
+
 .contact_form {
   position: relative;
   display: flex;
   height: 800px;
   background: url(./assests/Images/demo/Screenshot_2.png);
 }
-
-/* .contact_form  img {
-  width: 1249px;
-  padding-left: 438px;
-} */
 
 .contact_form img {
   position: absolute;
@@ -326,7 +309,6 @@ p {
 
 .contact_form form .form_input {
   height: fit-content;
-
   margin-top: 60px;
   display: grid;
   justify-content: center;
@@ -336,7 +318,6 @@ p {
   height: 60px;
   width: 370px;
   background: #f1f1f1;
-
   border-radius: 5px;
 }
 
@@ -349,17 +330,6 @@ p {
   border-radius: 50px;
   margin-top: 20px;
 }
-
-/* .formEntry {
-  display: block;
-  min-width: 300px;
-  margin: 30px auto;
-  padding: 10px;
-  border: none;
-  border-radius: 2px;
-  transition: all 0.5s ease 0s;
-} */
-/*  */
 
 .contact_address {
   height: 363px;
@@ -384,11 +354,9 @@ p {
   text-align: center;
 }
 
-/*  */
 .footer_section {
   height: 425px;
   display: flex;
-
   text-transform: uppercase;
   color: #fff;
 }

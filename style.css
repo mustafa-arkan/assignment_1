@@ -75,7 +75,7 @@ p {
 }
 
 #first_slide {
-  background: linear-gradient(to right, #51ca8c, #2b8ca2);
+  background: linear-gradient(to right, #48c987, #2b8ca2);
 }
 
 #second_slide {
@@ -93,11 +93,7 @@ p {
 .carousel-item {
   position: relative;
 }
-/* .carousel-indicators {
-  top: calc(100vh - 80px);
 
-  height: 50px;
-} */
 /*  */
 .top_menu {
   height: 120px;
@@ -139,9 +135,9 @@ p {
 .menu_logo a::before {
   content: "";
   position: absolute;
-  top: -53px;
+  top: -54px;
   left: 0;
-  height: 10px;
+  height: 5px;
   width: 0px;
   border-bottom: 7px solid #0d0d0c;
   transition: all 0.4s linear;

@@ -2,11 +2,8 @@
   left: 95%;
   padding-top: 10px;
 }
-/*  */
 .banner .carousel-inner .left_title {
   width: 65%;
-  /* height: 30vh; */
-  /* left: 12px; */
   top: 12vh;
   font-size: 10px;
 }
@@ -15,42 +12,34 @@
   top: 82vh;
   left: 40%;
 }
-/*  */
 #first_slide .imac_pc {
-  /* top: 180px; */
-  top: 47vh;
-  display: block;
   width: 62%;
   height: 34vh;
-
+  top: 47vh;
   left: 18%;
+  display: block;
 }
 
 #second_slide .imac_phone {
-  /* top: 160px; */
-
   top: 42vh;
   display: block;
   width: 40%;
   height: 38vh;
-
   left: 24%;
 }
 
 #third_slide .imac_girl {
-  top: 42vh;
-  display: block;
   width: 42%;
   height: 38vh;
-
   left: 26%;
+  top: 42vh;
+  display: block;
 }
 
 #fourth_slide .imac_phone {
-  top: 42vh;
-  display: block;
   width: 40%;
   height: 38vh;
-
   left: 24%;
+  top: 42vh;
+  display: block;
 }
