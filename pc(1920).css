@@ -259,6 +259,26 @@ p {
   height: 341px;
 }
 
+.E_pink {
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 55px;
+}
+
+.E_white {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -34px;
+  border: 0.5px solid gray;
+  border-radius: 50%;
+}
+
+.E_app {
+  position: absolute;
+  margin-top: 64px;
+  margin-left: -10px;
+}
+
 .platform_two_card h3 {
   font-size: 26px;
   font-family: "Montserrat", sans-serif;
@@ -271,7 +291,6 @@ p {
   font-family: "Roboto", sans-serif;
   text-align: center;
   padding: 42px;
-  color: #666666;
 }
 
 #demo_title {

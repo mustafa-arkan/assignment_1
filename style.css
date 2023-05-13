@@ -486,13 +486,11 @@ i#fb:before {
 .platform_two_card {
   width: 320px;
   height: 341px;
-  border-top: 1px solid rgb(240, 238, 238);
-  border-left: 0.2px solid rgb(239, 236, 236);
-  border-right: 0.2px solid rgb(239, 236, 236);
+  border: 2px solid #e8e3e3;
   /* box-shadow: 10px 10px lightblue; */
-  border-radius: 8px;
+  border-radius: 15px;
   position: relative;
-  color: #3f3f3f;
+  /* color: #3f3f3f; */
 }
 
 .E_pink {
@@ -515,23 +513,26 @@ i#fb:before {
   margin-left: -10px;
 }
 
-.platform_two_card h3 {
+.platform_two .platform_two_card h3 {
   font-size: 26px;
   font-family: "Montserrat", sans-serif;
-  color: #3f3f3f;
+
   font-weight: 900;
   margin-top: 171px;
+  text-transform: uppercase;
+  padding-top: 30px;
 }
 
-.platform_two_card p {
+.platform_two .platform_two_card p {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  color: #666666;
+
   text-align: center;
   padding: 42px;
+  opacity: 0.8;
 }
 
-/* .platform_two_cards .platform_two_card:hover {
+.platform_two_cards .platform_two_card:hover {
   background: linear-gradient(
     to bottom,
     rgba(73, 76, 162, 0.999),
@@ -539,7 +540,7 @@ i#fb:before {
   );
 
   color: #f2f2f2;
-} */
+}
 
 .platform_two_cards .platform2_card1 {
   grid-column: 1/2;
@@ -694,7 +695,7 @@ form .name {
 .contact_address_card {
   width: 315px;
   height: 151px;
-  border-radius: 8px;
+  border-radius: 12px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   margin-top: 107px;

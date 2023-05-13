@@ -309,11 +309,30 @@ i#fb:before {
 
 .platform_two_card {
   width: 90%;
-  height: 400px;
+  height: 300px;
 }
 
-.platform_two_card p {
-  text-align: justify;
+.E_pink {
+  margin-top: 35px;
+}
+
+.E_white {
+  margin-top: 30px;
+}
+
+.E_app {
+  margin-top: 44px;
+}
+
+.platform_two .platform_two_card h3 {
+  font-size: 22px;
+  margin-top: 105px;
+}
+
+.platform_two .platform_two_card p {
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
 }
 #demo_title {
   padding-top: 48px;

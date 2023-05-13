@@ -274,9 +274,20 @@
 
 .platform_two_card {
   width: 320px;
-  height: 341px;
+  height: 300px;
 }
 
+.E_pink {
+  margin-top: 35px;
+}
+
+.E_white {
+  margin-top: 30px;
+}
+
+.E_app {
+  margin-top: 44px;
+}
 .platform_two_cards .platform2_card1 {
   grid-column: 1/2;
 }
@@ -303,6 +314,17 @@
 .platform_two_cards .platform2_card6 {
   grid-column: 3/4;
   grid-row: 2/3;
+}
+
+.platform_two .platform_two_card h3 {
+  font-size: 22px;
+  margin-top: 105px;
+}
+
+.platform_two .platform_two_card p {
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
 }
 
 #demo_title {
