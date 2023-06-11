@@ -62,7 +62,7 @@ p {
 
 .top_menu .menu_logo .navbar-nav {
   gap: 37px;
-  margin-left: 90px;
+  margin-left: -150px;
 }
 
 .banner .carousel-inner .left_title {

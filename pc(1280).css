@@ -52,14 +52,37 @@
   margin-top: 20px;
 }
 
-.menu_logo .navbar-nav {
+/* .menu_logo .navbar-nav {
   gap: 37px;
-  margin-left: 20px;
+
+  margin-left: -160px;
 }
 
 .menu_logo .navbar-nav a {
   font-size: 18px;
+} */
+/*  */
+.hamburger {
+  display: none;
 }
+.nav-menu {
+  position: relative;
+  left: -47%;
+  /* top: 90px; */
+  top: 0;
+  display: flex;
+
+  flex-direction: row;
+  background-color: transparent;
+
+  text-align: center;
+  transition: 0.1s;
+}
+
+.nav-item {
+  margin-left: 37px;
+}
+/*  */
 
 .sticky {
   height: 70px;
