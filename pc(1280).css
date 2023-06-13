@@ -65,7 +65,7 @@
 .hamburger {
   display: none;
 }
-.nav-menu {
+.navbar .nav-menu {
   position: relative;
   left: -47%;
   /* top: 90px; */
@@ -73,6 +73,7 @@
   display: flex;
 
   flex-direction: row;
+
   background-color: transparent;
 
   text-align: center;

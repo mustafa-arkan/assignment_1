@@ -165,6 +165,7 @@ p {
 
 .nav-menu {
   display: flex;
+  flex-direction: column;
 
   justify-content: center;
 
