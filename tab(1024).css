@@ -23,11 +23,6 @@
   display: flex;
 }
 
-/* .menu_logo img {
-  width: 160px;
-  height: 75px;
-} */
-
 .menu_logo .menu {
   width: 58%;
 }
@@ -35,50 +30,62 @@
 .carousel-inner {
   height: calc(100vh - 48px);
 }
-.banner .carousel-inner #logo {
-  left: 70px;
+.top_menu .menu_logo img {
+  width: 90px;
+  height: 55px;
+  margin-top: 20px;
 }
 
 .banner .carousel-inner .left_title {
-  left: 70px;
+  width: 34%;
+  height: calc(100vh - 383px);
+  left: 12%;
+  top: 196px;
+  font-size: 18px;
 }
-
+.socio_ico {
+  left: 13.3%;
+  top: calc(100vh - 104px);
+}
 /*  */
 
 #first_slide .imac_pc {
-  width: 30%;
+  width: 34%;
   height: 50vh;
-  left: 50%;
-  top: 246px;
+  left: 60%;
+  top: 226px;
 }
 
 #second_slide .imac_phone {
   width: 23%;
-  /* height: 397px; */
-  height: calc(100vh - 32vh);
-
-  left: 50%;
-  top: 170px;
+  height: 442px;
+  left: 60%;
+  top: 120px;
 }
 
 #third_slide .imac_girl {
-  width: 21%;
-  /* height: 317px; */
-  height: calc(100vh - 25vh);
-
-  left: 50%;
-  top: 170px;
+  width: 23%;
+  height: 417px;
+  left: 60%;
+  top: 150px;
 }
 
-/*  */
+#fourth_slide .imac_phone {
+  width: 23%;
+  height: 442px;
+  left: 60%;
+  top: 120px;
+}
 
+.carousel-indicators {
+  top: calc(100vh - 80px);
+}
 /*  */
 .auto_video {
   height: 450px;
 }
 
 .content_auto_video {
-  width: 100%;
   display: flex;
   gap: 30px;
 }
@@ -99,6 +106,7 @@
 
 .auto_left p {
   font-size: medium;
+  text-align: left;
 }
 
 .auto_right img {

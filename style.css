@@ -115,38 +115,6 @@ p {
   height: 55px;
 }
 
-/* .menu_logo .navbar-nav {
-  display: flex;
-  justify-content: center;
-
-  gap: 37px;
-  align-items: center;
-  margin-left: -160px;
-}
-
-.menu_logo .navbar-nav a {
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  color: #f3f3f3;
-  text-decoration: none;
-  position: relative;
-}
-
-.menu_logo a::before {
-  content: "";
-  position: absolute;
-  top: -54px;
-  left: 0;
-  height: 5px;
-  width: 0px;
-  border-bottom: 7px solid #0d0d0c;
-  transition: all 0.4s linear;
-}
-
-.menu_logo a:hover::before {
-  width: 100%;
-} */
-/*  */
 .navbar {
   display: flex;
   width: 400px;
@@ -171,7 +139,6 @@ p {
 
   gap: 37px;
   align-items: center;
-  /* margin-left: -210px; */
 }
 
 .nav-menu a::before {
@@ -225,9 +192,6 @@ p {
     saturate(50%);
   margin-left: 5%;
 }
-/* .sticky .nav-menu {
-  top: 20px;
-} */
 
 .sticky .menu_logo a {
   color: black;
@@ -351,8 +315,8 @@ i#fb:before {
 
 .banner .carousel-indicators button.clicked {
   margin-top: -5px;
-  width: 12px; /* Adjust size as desired */
-  height: 12px; /* Adjust size as desired */
+  width: 12px;
+  height: 12px;
 }
 
 /* start of platform css */
@@ -537,7 +501,7 @@ i#fb:before {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
-  /* margin-left: 19.47%; */
+
   margin-top: 74px;
   gap: 20px;
   width: 1025px;
@@ -547,10 +511,9 @@ i#fb:before {
   width: 320px;
   height: 341px;
   border: 2px solid #e8e3e3;
-  /* box-shadow: 10px 10px lightblue; */
+
   border-radius: 15px;
   position: relative;
-  /* color: #3f3f3f; */
 }
 
 .E_pink {
@@ -637,7 +600,7 @@ i#fb:before {
 .contact_form {
   position: relative;
   display: flex;
-  /* justify-content: center; */
+
   height: 775px;
   background: url(./assests/Images/demo/Screenshot_2.png);
 }
@@ -648,9 +611,6 @@ i#fb:before {
   height: 800px;
   padding-left: 338px;
 }
-
-/* .contact_form .contact_form_shape {
-} */
 
 .contact_form form {
   width: 430px;
@@ -671,22 +631,6 @@ form .name {
   opacity: 0.7;
 }
 
-/* form .name:hover {
-  height: 30px;
-  width: 19.79%;
-  border-bottom: 5px solid #0e3721;
-  transition: ease 0.5s;
-} */
-
-/* .formEntry {
-  display: block;
-  min-width: 300px;
-  margin: 30px auto;
-  padding: 10px;
-  border: none;
-  border-radius: 2px;
-  transition: all 0.5s ease 0s;
-} */
 .contact_form form .form_input {
   height: fit-content;
 

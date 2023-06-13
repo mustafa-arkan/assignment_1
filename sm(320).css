@@ -74,31 +74,9 @@ p {
   display: flex;
   justify-content: space-between;
   margin-left: 18%;
-  /* padding-left: 18%; */
-
   margin-top: -50px;
 }
-/* .navbar-toggler {
-  margin-left: 85%;
-  padding: 30px;
-}
 
-.top_menu .offcanvas.offcanvas-end {
-  width: 40%;
-  color: red;
-}
-
-.menu_logo .navbar-nav {
-  gap: 17px;
-  margin-left: -5px;
-  padding-top: 7px;
-}
-
-.menu_logo .navbar-nav a {
-  font-size: 10px;
-} */
-
-/*  */
 .hamburger {
   display: block;
   margin-left: 85%;
@@ -120,7 +98,6 @@ p {
   left: -180%;
   top: 70px;
   gap: 0;
-  /* flex-direction: column; */
   background-color: #262626;
   width: 280px;
   height: 400px;
@@ -136,8 +113,6 @@ p {
 .nav-menu.active {
   left: 0;
 }
-
-/*  */
 
 /*  */
 
@@ -166,10 +141,7 @@ p {
 }
 
 .sticky .hamburger {
-  /* width: 148px;
-  height: 55px; */
   margin-top: 1px;
-  /* padding: 50px; */
 }
 
 .sticky .bar {
@@ -303,7 +275,7 @@ i#fb:before {
 .content_auto_video {
   width: 90%;
   height: 830px;
-  margin-left: 12px;
+  margin-left: 15px;
   display: grid;
 }
 
@@ -330,7 +302,6 @@ i#fb:before {
 
 .auto_right img {
   max-width: 100%;
-  /* height: 350px; */
   height: auto;
   padding-left: 12px;
 }

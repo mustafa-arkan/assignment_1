@@ -35,7 +35,6 @@ body {
 /* start of banner */
 
 .carousel-inner {
-  /* height: 100vh; */
   height: calc(100vh - 15vh);
 }
 
@@ -106,6 +105,10 @@ body {
   top: calc(100vh - 180px);
   height: 50px;
 }
+
+.nav-menu {
+  top: 50px;
+}
 /* platform 1 start */
 .platform_one {
   height: 1100px;
@@ -113,7 +116,6 @@ body {
 }
 
 .platform_one_allcards {
-  /* width: 100%; */
   margin-left: 36px;
   gap: 40px;
   display: grid;

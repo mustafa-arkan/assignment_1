@@ -52,15 +52,6 @@
   margin-top: 20px;
 }
 
-/* .menu_logo .navbar-nav {
-  gap: 37px;
-
-  margin-left: -160px;
-}
-
-.menu_logo .navbar-nav a {
-  font-size: 18px;
-} */
 /*  */
 .hamburger {
   display: none;
@@ -68,7 +59,7 @@
 .navbar .nav-menu {
   position: relative;
   left: -43%;
-  /* top: 90px; */
+
   top: 0;
   display: flex;
 
