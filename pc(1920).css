@@ -184,6 +184,10 @@ p {
 .platform_one_card .platform_one_info {
   top: 183px;
 }
+
+.navbar .nav-menu {
+  left: -57%;
+}
 /*  */
 .auto_video {
   height: 625px;

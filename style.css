@@ -223,6 +223,7 @@ p {
   margin-top: 15px;
   filter: brightness(40%) grayscale(100%) contrast(0.8) hue-rotate(270deg)
     saturate(50%);
+  margin-left: 5%;
 }
 /* .sticky .nav-menu {
   top: 20px;
